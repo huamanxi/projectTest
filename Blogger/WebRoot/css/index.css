@@ -1,0 +1,478 @@
+body,div,form{
+	margin:0;
+	padding: 0;
+}
+.body_bgpic{
+	   margin,padding: 0;
+	   width: 100%;
+	   background-image: url("../img/bigbg1.png");
+	   overflow: hidden;
+
+}
+.mynav{margin:0;
+      padding: 0;
+      width: 1000px;
+      height: auto;
+      margin:0 auto; }
+
+.myaddress{
+	  margin-top: 60px;
+	  margin-left: 200px;
+	  font-family: "微软雅黑";
+}
+
+.maincontent{
+      width: 1200px;
+      height: 300px;
+      margin:80px auto;
+      position: relative;
+}
+
+.all-bgpic{
+	   margin,padding: 0;
+	   width: 100%;
+	   background-image: url("../img/3.jpg");
+	   height: auto;
+	   overflow: hidden;  
+}
+.top_nav{
+	 width: 100%;
+	 height: auto;
+}
+
+.top_navs{
+	 width: 100%;
+	 height: auto;
+}
+
+.top_nav ul li a{
+     color:#CA054B;
+}
+.top_navs ul li a{
+	color: #AF1515;
+}
+.top_navs ul li a:hover{
+	background-color: #96DAEC;
+	color: white;
+}
+.top_nav ul li a:hover{
+	background-color: #96DAEC;
+	color: white;
+}
+
+.new_form{
+	width: 900px;
+	height: 600px;
+	margin:55px auto;
+	border: solid 2px #ccc;
+	box-shadow:7px 7px 16px rgba(50, 50, 50, 0.4);
+	float: left;
+	margin-left: 35px;
+	
+}
+
+.hot_spot{
+	width: 440px;
+	height: 250px;
+	/*background-color: #9ED160;*/
+	margin-top: 40px;
+	margin-left: 180px;
+	box-shadow:7px 7px 16px rgba(60, 60, 60, 0.6);
+}
+.hot_title{
+	width: 440px;
+	height: 50px;
+	background-color: #2198E4;
+	/*/border-bottom: solid 3px black;*/
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 50px;
+	color: white;
+}
+.hot_content{
+	width: 440px;
+	height: 200px;
+	background-color: white;
+	overflow-y: auto;
+}
+
+.hot_content ul li{
+     font-size: 19px;
+     text-align: left;
+}
+.content_pic1{
+	width: 250px;
+	height: 250px;
+	background-color: #ccc;
+	float: left;
+	border-radius: 20px;
+	overflow: hidden;
+	opacity: 0.7;
+	margin-left: 100px;
+}
+
+.content_pic2{
+	width: 250px;
+	height: 250px;
+	background-color: #ccc;
+	float: left;
+	margin-left: 180px;
+	border-radius: 20px;
+	overflow: hidden;
+	opacity: 0.7;
+}
+
+.content_pic3{
+	width: 250px;
+	height: 250px;
+	background-color: #ccc;
+   float: right;
+   border-radius: 20px;
+   overflow: hidden;
+	opacity: 0.7;
+}
+
+.new_form form input{
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 350px;
+	height: 45px;	
+	background-color: white;
+	border-radius: 15px;
+}
+
+.help-inline{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 15px;
+	color: #3B2D20;
+}
+
+.new_form form textarea{
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 750px;
+	height: 400px;
+	background-color: white;
+}
+
+.btn{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.rewrite{
+	margin-left: 50px;
+	background-color: #CA9798;
+}
+
+.all_bgpic_list{
+	   margin,padding: 0;
+	   width: 100%;
+	   background-image: url("../img/7.png");
+	   height: auto;
+	   overflow: hidden;  
+}
+
+.show_allblog_left{
+	   width: 800px;
+	   height: auto;
+	   min-height: 600px;
+	   border: solid 2px #ccc;
+	   box-shadow:7px 7px 16px rgba(50, 50, 50, 0.4);
+	   margin-left: 110px;
+	   margin-top: 55px;
+	   float: left;
+	   background-color: white;
+}
+
+.show_allblog_right{
+	 width: 300px;
+	 height: auto;
+	 min-height: 600px;
+	 border: solid 2px #ccc;
+	 box-shadow:7px 7px 16px rgba(50, 50, 50, 0.4);
+	 float: left;
+	 background-color: white;
+	 margin-left: 60px;
+	 margin-top: 55px;
+}
+
+.allblog_content{
+	width: 700px;
+	height:250px;
+	border: solid 1px #4C4A51;
+	margin:20px auto;
+}
+
+.blog_body{
+	width: 650px;
+	height: 170px;
+	border: 1px solid #ccc;
+	margin:0 auto;
+	text-align: center;
+}
+
+.submit_time{
+	float: left;
+	margin-left: 30px;
+	margin-top: 13px;
+	font-weight: bold;
+}
+
+.read_times_title{
+	float: left;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 13px;
+}
+
+.read_times{
+	float: left;
+	font-weight: bold;
+	color: #17662E;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+
+.blog_title{
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+.delete{
+	margin-top: 13px;
+	font-weight: bold;
+	float: right;
+}
+
+.blog_ul{
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.introduce_bigbg{
+	   margin,padding: 0;
+	   width: 100%;
+	   background-image: url("../img/9.jpg");
+	   overflow: hidden;
+}
+
+#pic_wall{
+    width: 100%;min-width: 1300px;
+    height:490px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 35px;
+}
+#pic_wall img{
+    padding:2px 3px 3px;
+    background:black;
+    box-shadow:2px 2px 3px rgba(50, 50, 50, 0.4);
+    -webkit-transition:all 0.5s ease-in;
+    -moz-transition:all 0.5s ease-in;
+    transition:all 0.5s ease-in;
+    position:absolute;
+    z-index:1;
+}
+
+#pic_wall img:hover{
+    box-shadow:15px 15px 20px rgba(50, 50, 50, 0.4);
+    -webkit-transform:rotate(0deg) scale(1.20);
+    -moz-transform:rotate(0deg) scale(1.20);
+    transform:rotate(0deg) scale(1.20);
+    z-index:2;
+}
+/*控制每张照片的位置*/
+.pic1{
+    left: 85px;
+    top:19px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.pic2{
+    left:366px;
+    top:0;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+.pic3{
+    left:525px;
+    top:45px;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+.pic4{
+    left:1015px;
+    top:15px;
+    -webkit-transform: rotate(22deg);
+    -moz-transform: rotate(22deg);
+    transform: rotate(22deg);
+}
+
+.pic5{
+    left:775px;
+    top:75px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+.pic6{
+    left:99px;
+    top:199px;
+    -webkit-transform: rotate(-47deg);
+    -moz-transform: rotate(-47deg);
+    transform: rotate(-47deg);
+}
+.pic7{
+    left:305px;
+    top:231px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+.pic8{
+    left:585px;
+    top:185px;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+.pic9{
+    left:815px;
+    top:285px;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+.pic10{
+    left:1015px;
+    top:175px;
+    -webkit-transform: rotate(37deg);
+    -moz-transform: rotate(37deg);
+    transform: rotate(37deg);
+}
+
+.content_bigbg{
+	   width: 100%;
+	   background-image: url("../img/10.png");
+	   height: auto;
+	   overflow: hidden;  
+}
+
+/*管理员页面*/
+
+.control_bgpic{
+	 margin,padding: 0;
+	   width: 100%;
+	   background-image: url("../img/control.jpg");
+	   overflow: hidden;
+	   /*height: 100%；*/
+	   /*min-height:500px;*/
+}
+
+.control_border{
+	   width: 1100px;
+	   height: 600px;
+	   /*background-color: white;*/
+	   margin: 20px auto;
+	   box-shadow:9px 9px 9px rgba(70, 70, 70, 0.6);
+}
+
+.already{
+	width: 450px;
+	height: 600px;
+	float: left;
+	background-color: white;
+}
+
+.wait_checked{
+	width: 550px;
+	height: 600px;
+	float: right;
+	background-color: white;
+}
+
+.ready_border{
+	width: 430px;
+	height: 110px;
+	border: solid 2px #cccccc;
+	margin: 10px auto;
+}
+
+.ready_border span{
+	font-size: 18px;
+}
+
+.ready_delete a{
+	display: block;
+	margin-top: 8px;
+	color: black;
+	font-size: 17px;
+	margin-left: 375px;
+	font-weight: bold;
+}
+
+.ready_delete a:hover{
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.alreay_name{
+	width: 450px;
+	height: 50px;
+	/*color: red;*/
+	font-weight: bold;
+	font-size: 22px;
+	border-bottom: solid 3px green;
+	line-height: 50px;
+	font-family: "微软雅黑";
+}
+
+.checked_border{
+	width: 530px;
+	height: 110px;
+	border: solid 2px #cccccc;
+	margin: 10px auto;
+}
+
+.checked_border span{
+	font-size: 18px;
+}
+
+.checked_delete a{
+	display: block;
+	margin-top: 8px;
+	color: black;
+	font-size: 17px;
+	margin-left: 472px;
+	font-weight: bold;
+}
+
+.checked_delete a:hover{
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.checked_pass a{
+	display: block;
+	margin-top: 8px;
+	color: black;
+	font-size: 17px;
+	float: left;
+	margin-left: 412px;
+	font-weight: bold;
+}
+.checked_pass a:hover{
+	color: green;
+	font-weight: bold;
+	font-size: 18px;
+}

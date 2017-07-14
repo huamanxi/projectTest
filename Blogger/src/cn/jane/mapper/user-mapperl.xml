@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"     
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.jane.mapper.UserMapper">
+	<!-- 添加个人办公机账号 -->
+	<insert id="addBlog" parameterType="blog">
+		insert into blog(phone_num,title,content,count,description,blog_date,state) values(#{phone_num},#{title},#{content},#{count},#{description},#{blog_date},#{state})
+	</insert>
+	<select id="queryBlog" resultType="blog">
+		select blog_id,phone_num,title,description,content,count,blog_date,state from blog where phone_num = #{phone_num}
+	</select>
+	<select id="findBlog" resultType="blog">
+		select title,description,content,count from blog where title=#{title}
+	</select>
+	<select id="findBlogByd" resultType="blog">
+		select title,description,content,count from blog where description=#{description}
+	</select>
+	<update id="updateCount" parameterType="String">
+		update blog set count=count+1 where title=#{title}
+	</update>
+	
+	<insert id = "register" parameterType="user">
+		insert into user(phone_num,password,user_name,sex,age,local,state)values(#{phone_num},#{password},#{user_name},#{sex},#{age},#{local},#{state})
+	</insert>
+	<select id="all_num" resultType="String">
+		select phone_num from user
+	</select>
+	<select id = "findPass" resultType = "user">
+		select phone_num,password,user_name,sex,age,local,state from user where phone_num =#{phone_num}
+	</select>
+	<select id="byState" resultType = "blog">
+		select blog_id,phone_num,title,description,content,blog_date,count from blog where state = #{state}
+	</select>
+	
+	<update id = "changeState" parameterType="String">
+		update blog set state = 1 where blog_id = #{blog_id} 
+	</update>
+	<delete id = "deleteBlog" parameterType="String">
+			delete from blog where blog_id = #{blog_id}
+	</delete>
+</mapper>
+
+                 
